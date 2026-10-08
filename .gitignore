@@ -1,0 +1,68 @@
+# ============================================================
+# R PROJECT FILES
+# ============================================================
+
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# RStudio project files
+*.Rproj
+
+
+# ============================================================
+# LOCAL DATA
+# ============================================================
+
+# Do not accidentally commit research datasets
+data/*.csv
+data/*.xlsx
+data/*.xls
+
+# Allow the documentation file
+!data/README.md
+
+
+# ============================================================
+# GENERATED OUTPUTS
+# ============================================================
+
+# Analysis outputs may contain unpublished results
+outputs/*.csv
+outputs/*.xlsx
+outputs/*.png
+outputs/*.jpg
+outputs/*.jpeg
+outputs/*.pdf
+
+# Allow the output documentation file
+!outputs/README.md
+
+
+# ============================================================
+# TEMPORARY FILES
+# ============================================================
+
+*.tmp
+*.temp
+*.log
+.DS_Store
+Thumbs.db
+
+
+# ============================================================
+# BACKUP FILES
+# ============================================================
+
+*.bak
+*.backup
+*~
+
+
+# ============================================================
+# IDE / EDITOR FILES
+# ============================================================
+
+.vscode/
+.idea/
